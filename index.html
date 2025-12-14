@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DelishFind – Recipe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <h1>DelishFind 🍲</h1>
+  <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#favorites">Favorites</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<section class="controls">
+  <input type="text" id="search-input" placeholder="Search recipes (e.g. chicken)">
+  <select id="region-filter">
+    <option value="">All Regions</option>
+    <option value="Indian">Indian</option>
+    <option value="Italian">Italian</option>
+    <option value="Chinese">Chinese</option>
+    <option value="Mexican">Mexican</option>
+    <option value="American">American</option>
+  </select>
+  <button id="search-btn">Search</button>
+</section>
+
+<section>
+  <div id="recipe-list" class="recipe-grid"></div>
+</section>
+
+<section id="favorites">
+  <h2>⭐ Your Favorites</h2>
+  <div id="favorites-list" class="recipe-grid"></div>
+</section>
+
+<section id="about" class="about">
+  <p>
+    DelishFind is a smart recipe finder using the Spoonacular API.
+    It supports search, cuisine filtering, detailed recipe cards,
+    cooking procedures, and favorites.
+  </p>
+</section>
+
+<footer>
+  <p>Made with ❤️ by Sibele Pal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
