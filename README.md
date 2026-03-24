@@ -1,4 +1,4 @@
-# 🍽️ Delish Finds
+# 🍽️ DelishFind
 
 > Discover recipes effortlessly using ingredients you already have.
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-**Delish Finds** is a smart recipe discovery web app that helps users find delicious recipes based on available ingredients.  
+**DelishFind** is a smart recipe discovery web app that helps users find delicious recipes based on available ingredients.  
 It simplifies cooking decisions by providing filtered, region-based, and personalized recipe suggestions.
 
 Whether you're a beginner or a food enthusiast, Delish Finds turns your kitchen into a creative playground.
@@ -42,7 +42,3 @@ Whether you're a beginner or a food enthusiast, Delish Finds turns your kitchen 
 - **API:** Spoonacular REST API
 
 ---
-
-
-# Run the app
-npm start
